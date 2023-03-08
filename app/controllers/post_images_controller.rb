@@ -11,7 +11,9 @@ class PostImagesController < ApplicationController
   end
 
   def index
+    @post_images = post_images
   end
+
 
   def show
   end
